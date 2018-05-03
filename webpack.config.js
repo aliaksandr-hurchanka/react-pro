@@ -1,11 +1,10 @@
 var path = require('path');
 var webpack = require('webpack');
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 
 module.exports = {
     entry: {
-        app: './react-pro-ui/src/index.js'
+        app: './ui/src/index.js'
     },
     output: {
         path: path.resolve('./build'),
